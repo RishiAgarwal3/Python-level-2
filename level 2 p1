@@ -1,0 +1,9 @@
+name = input("enter your name")
+age = int(input("enetr your age"))
+mobile_number = int(input("enter your mobile number"))
+number = str(mobile_number)
+while len (number) != 10:
+    mobile_number = int(input("enter your mobile number"))
+    number = str(mobile_number)
+
+    
