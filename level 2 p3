@@ -1,0 +1,24 @@
+def message():
+    print("hi rishi lets learn functions")
+message()
+def add():
+    n1=12
+    n2=13
+    total=n1+n2
+    print(total)
+add()
+#the variable which we write at the time of defination of function is called parameter
+def message1(name):
+    print("hi",name,"wish you a very happy birthday")
+
+#the value we put inside parenthesis at the time of calling the function is called arguement
+name2="rishi"
+name1="varsha"
+message1 (name2)
+message1 (name1)
+
+def message3(name,wishes):
+    print("hi",name,"wishing you a very happy",wishes," may you have a great year ahead.....")
+
+message3(name2,"birthday")
+message3(name1,"anniversary")          
