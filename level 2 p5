@@ -1,0 +1,8 @@
+def add(x,y):
+    return (x+y)
+    print ("inside function")
+
+a=int(input("enter the first number"))
+b=int(input("enter the second number"))
+print(add(a,b))
+print ("hi out of function")
