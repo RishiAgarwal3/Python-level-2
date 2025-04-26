@@ -1,0 +1,24 @@
+
+while True:
+    op = input("enter the operator respective to the operation you want to perform")
+    n1= float(input("enter your first number"))
+    n2= float(input("enter the second number"))
+    if op == "+":
+        print("the sum is:", n1+n2)
+    elif op== "-":
+        print("the difference is", n1-n2)
+    elif op == "*":
+        print ("the product is", n1*n2)
+    elif op == "/":
+        print ("the quotient is", n1/n2)
+    elif op == "//":
+        print ("the integer division value is", n1//n2)
+    elif op == "%":
+        print ("the remainder is ", n1%n2)
+    elif op == "**":
+        print  ("the number raise to the other number is ",n1**n2)
+    else:
+        print("you entered the wrong operator,, error!!")
+        break
+    
+        
