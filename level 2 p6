@@ -1,0 +1,6 @@
+def cuboid(x,y,z):
+    return(x*y*z)
+length=int(input("enter the length of the cuboid"))
+breadth=int(input("enter the breadthh of the cuboid"))
+height=int(input("enter the height of the cuboid"))
+print ("The Volume of the cuboid is:", cuboid(length,breadth,height))
