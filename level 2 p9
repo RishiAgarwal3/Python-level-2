@@ -1,0 +1,18 @@
+lst=[12,61,77,121,26,55,1,185,8,12]
+def maxlist(lst):
+    maximum = lst[0]
+    for i in lst:
+        if maximum<=i:
+            maximum = i
+
+    return maximum
+print ("The maximum element in the list is: \n ", maxlist(lst))
+
+def findindex(lst,n):
+    if n not in lst :
+        return -1
+    else:
+        for i in range (len(lst)):
+            if n == lst[i]:
+                return i
+print ("The number ",26,"is prresent at index: \n", findindex(lst,26))
