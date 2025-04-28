@@ -1,0 +1,32 @@
+def add(x,y):
+    return (x+y)
+def subtraction(x,y):
+    return (x-y)
+def multiplication(x,y):
+    return(x*y)
+def division(x,y):
+    return(x/y)
+def power(x,y):
+    return(x**y)
+def integerdivision(x,y):
+    return(x//y)
+while True:
+    a=int(input("enter the first number"))
+    b=int(input("enter the second number"))
+    op=input("enter what operation you want to perform")
+
+    if op=="+" or op == "addition":
+        print("the sum of the 2 numbers is", add(a,b))
+    elif op=="-" or op == "subtraction":
+        print("the difference of the 2 numbers is", subtraction(a,b))
+    elif op=="*" or op == "multiplication":
+        print("the product of the 2 numbers is", multiplication(a,b))
+    elif op=="/" or op == "division":
+        print("the qoutient of the 2 numbers is", division(a,b))
+    elif op=="//" or op == "integerdivision":
+        print("the quotient of the 2 numbers is", integerdivision(a,b))
+    elif op=="**" or op == "power":
+        print("the power of the 2 numbers is", power(a,b))
+    else:
+        print("enter the correct operator and run again")
+        break
