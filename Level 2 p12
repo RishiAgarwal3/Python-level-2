@@ -1,0 +1,9 @@
+lst=[12,61,77,121,26,55,1,185,8,12]
+def maxlist(lst):
+    maximum = lst[0]
+    for i in lst:
+        if maximum<=i:
+            maximum = i
+
+    return maximum
+print ("The maximum element in the list is: \n ", maxlist(lst))
