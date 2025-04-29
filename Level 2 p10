@@ -1,0 +1,36 @@
+lst = [34,65,91,11,2,44]
+#append: used to add 1 element at the end of the list at a time
+lst.append (3)
+lst2 = [56,23,"pizza","guitar",61,3]
+#extend : adds a list to another list
+lst.extend ([1,2,3])
+print (lst)
+lst.extend (lst2)
+print (lst)
+#pop() : returns and removes the last index element from list
+x=lst.pop()
+print (x)
+print (lst)
+#pop(index) : returns and removes the perticular index element form the list
+y = lst.pop(3)
+print (y)
+print (lst)
+#insert(index,value) : inserts a value at the given index in the list
+lst.insert (1,5)
+print (lst)
+#copy() : this method creates a copy of the list
+lst1=lst.copy()
+print (lst1)
+lst3=lst
+print (lst3)
+lst.append ("rishi")
+print (lst3)
+#remove(value) : removes the particular value from the list
+lst.remove ("rishi")
+print (lst)
+#clear : clears all the list elements
+lst.clear()
+print (lst)
+#del : when used with list name removes the list variable
+del lst
+print (lst)
