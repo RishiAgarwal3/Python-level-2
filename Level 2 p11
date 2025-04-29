@@ -1,0 +1,18 @@
+lst = ["it","is","my","14th","birthday","in","2","days"]
+#reverse index stats from -1
+print (lst[-1],lst[-3])
+#slicing means cutting a section of the list but the original list remains the same
+print (lst[1:3])
+print (lst[:]) # only colon(:) means start from very first position and go till end
+lst[2:3]=["Rishi's"]
+lst[-1:]= ["days","on","3rd","june"]
+print (lst)
+
+lst2=[87,93,12,9,55,32,48,71,4]
+
+print (lst2 [:9:2])
+
+print (lst2 [1:9:2])
+
+print (lst2 [-1:-10:-1])
+
