@@ -1,0 +1,15 @@
+lst=[12,61,77,121,26,55,1,185,8,12]
+def sumlist(lst) :
+    sumlist=sum(lst)
+    return sumlist
+
+print  ("The sum of all the elements in the list is: \n", sumlist(lst))
+
+sum1=0
+
+
+for i in lst :
+    sum1+=i
+
+print (sum1)
+    
