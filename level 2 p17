@@ -1,0 +1,13 @@
+lst = [-23,46,99,-33,0,-22,45,-4]
+pos = []
+neg = []
+for i in lst:
+    if i>0:
+        pos.append (i)
+    elif i<0:
+        neg.append (i)
+    else:
+        print ("0")
+
+print ("number of positive numbers is: \n ", pos)
+print ("number of negative numbers is: \n ", neg)        
