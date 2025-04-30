@@ -1,0 +1,19 @@
+def returnDAY():
+    if dayofweak==1:
+        print ("the day is sunday")
+    elif dayofweak==2:
+        print ("the day is monday")
+    elif dayofweak==3:
+        print ("the day is tuesday")
+    elif dayofweak==4:
+        print ("the day is wednesday")
+    elif dayofweak==5:
+        print ("the day is thursday")
+    elif dayofweak==6:
+        print ("the day is friday")
+    elif dayofweak==7:
+        print ("the day is saturday")
+    elif:
+        print ("there are seven days in a weak you dummy")
+dayofweak = int(input("enter the day of the weak in number (sunday is 1) :"))
+returnDAY()
