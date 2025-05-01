@@ -1,0 +1,30 @@
+d1= {"italian":["pizza","pasta","spagheti","zucchine","rissoto"],"chocolate":7,"strawberry":4}
+print (d1)
+d2= {"mango":6,"vannila":7}
+d2["kiwi"]=5
+print (d2)
+d2["vannila"]= 2
+print (d2)
+#the keys need to be values which are constant like strings integer numbers or tuples
+print (d2.keys())
+print (d2.values())
+print (d2.items())
+for i in d2 :
+    print(i)
+for i in d2.keys():
+    print (i)
+for i in d2.values():
+    print(i)
+for i,j in d2.items():
+    print (i,j)
+d1.update(d2)
+print (d1)
+print (d1.get("italian"))
+x=d1.pop("italian")
+print (x)
+y=d1.popitem()
+print (y)
+d1.clear()
+print(d1)
+del d1
+print(d1)
