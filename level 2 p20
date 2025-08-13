@@ -1,0 +1,8 @@
+number = int(input("ennter a 3 digit number: \n"))
+digit1 = number // 100
+digit2 = (number // 10) % 10
+digit3 = number % 10
+sum_of_digits = digit1 + digit2 + digit3
+reverse = digit3*100+digit2*10+digit1
+print ("the sum of digits is: ",sum_of_digits )
+print ("the reverse of the number is ", reverse)
