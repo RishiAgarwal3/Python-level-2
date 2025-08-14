@@ -1,0 +1,11 @@
+r = int(input("enter the radius of the circle"))
+pi = 22/7 
+circuference = (2*pi*r)
+area = (pi*r**2)
+cost_of_fencing = (30*circuference)
+cost_of_laying_grass = (50*area)
+print ("the circumference is: ", circuference)
+print ("")
+print ("the area is: ", area)
+print ("the cost of fencing is: ", cost_of_fencing)
+print ("the cost of laying grass is: ", cost_of_laying_grass)
