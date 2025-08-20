@@ -1,0 +1,8 @@
+f1 = open("message.txt","r+")
+
+f1.write(""" This is the first line of the scret message you cant see
+           This is the second line of the secrent message you cant see""")
+
+f1.seek(0)
+
+print(f1.readline(2))
