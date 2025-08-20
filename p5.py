@@ -1,0 +1,9 @@
+import os
+f1 = open("yts1.txt","r")
+
+
+print(f1.readlines())
+os.remove("yts1.txt")
+
+
+f1.close()
